@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`start page check Shows header 1`] = `"<h1>10 er besvart, og 3 er besvart riktig</h1><a href=\\"/question\\">Start Quiz</a>"`;
-
-exports[`start page check Shows header 2`] = `"<h1>10 er besvart, og 3 er besvart riktig</h1><a href=\\"/question\\">Start Quiz</a>"`;
