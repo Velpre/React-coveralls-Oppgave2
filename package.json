@@ -38,7 +38,8 @@
   "jest": {
     "testEnvironment": "jsdom",
     "collectCoverageFrom": [
-      "*.jsx"
+      "*.jsx",
+      "!index.jsx"
     ]
   }
 }
