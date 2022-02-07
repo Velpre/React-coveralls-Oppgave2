@@ -7,9 +7,10 @@
     "dev": "parcel index.html",
     "clean": "rimraf dist .parcel-cache",
     "test": "jest --collectCoverage",
-    "format": "prettier --write \"**/*.{jsx,js}\" \"__tests__/**/*.{jsx,js}\"",
-    "format:check": "prettier --check \"*.{jsx,js}\" \"__tests__/**/*.{jsx,js}\"",
-    "verify": "npm run format:check && test "
+    "format": "prettier --write *.{ts,tsx,js,jsx} __tests__/**/*.{ts,tsx,js,jsx}",
+    "format:check": "prettier --check *.{ts,tsx,js,jsx} __tests__/**/*.{ts,tsx,js,jsx}",
+    "verify": "npm run format:check && npm run test:coverage",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
     "parcel": "^2.2.1"
   },
   "dependencies": {
+    "prettier": "^2.5.1",
     "pretty": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
