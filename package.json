@@ -9,8 +9,7 @@
     "test": "jest",
     "format": "prettier --write *.{ts,tsx,js,jsx} __tests__/**/*.{ts,tsx,js,jsx}",
     "format:check": "prettier --check *.{ts,tsx,js,jsx} __tests__/**/*.{ts,tsx,js,jsx}",
-    "verify": "npm run format:check && npm run test:coverage",
-    "test:coverage": "jest --coverage"
+    "verify": "npm run format:check && jest --coverage"
   },
   "keywords": [],
   "author": "",
